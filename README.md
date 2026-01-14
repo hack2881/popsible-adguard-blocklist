@@ -20,7 +20,7 @@ related to **popsible.com**.
 ## Installation
 1. Open AdGuard
 2. Go to Filters → Custom filters
-3. Add this list OR paste the contents of `https://raw.githubusercontent.com/hack2881/popsible-adguard-blocklist/refs/heads/popsible-adguard-blocklist/popsible.txt`
+3. Add this list OR paste the contents of https://raw.githubusercontent.com/hack2881/popsible-adguard-blocklist/refs/heads/popsible-adguard-blocklist/popsible.txt
 
 ## Recommended
 Enable:
