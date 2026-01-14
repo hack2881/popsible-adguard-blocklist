@@ -1,0 +1,1 @@
+# popsible-adguard-blocklist
