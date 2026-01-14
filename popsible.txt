@@ -10,6 +10,7 @@
 
 ! === ALL SUBDOMAINS (future-proof) ===
 ||*.popsible.com^
+||@popsible.com^
 
 ! === KNOWN SUBDOMAINS ===
 ||www.popsible.com^
