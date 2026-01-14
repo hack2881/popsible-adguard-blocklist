@@ -5,10 +5,13 @@
 ! Maintained by: ao
 ! ==================================================
 
-! === Main domain ===
+! === ROOT DOMAIN ===
 ||popsible.com^
 
-! === Subdomains ===
+! === ALL SUBDOMAINS (future-proof) ===
+||*.popsible.com^
+
+! === KNOWN SUBDOMAINS ===
 ||www.popsible.com^
 ||mail.popsible.com^
 ||email.popsible.com^
@@ -17,41 +20,64 @@
 ||newsletters.popsible.com^
 ||click.popsible.com^
 ||links.popsible.com^
+||go.popsible.com^
 ||trk.popsible.com^
-||tracking.popsible.com^
 ||track.popsible.com^
+||tracking.popsible.com^
 ||open.popsible.com^
+||pixel.popsible.com^
 ||cdn.popsible.com^
 ||assets.popsible.com^
 ||img.popsible.com^
+||images.popsible.com^
 ||media.popsible.com^
 
-! === Wildcard (future-proof) ===
-||*.popsible.com^
-
-! === Common tracking endpoints ===
+! === TRACKING & ANALYTICS ENDPOINTS ===
 ||popsible.com/track
 ||popsible.com/tracking
 ||popsible.com/open
 ||popsible.com/click
 ||popsible.com/redirect
+||popsible.com/r/
 ||popsible.com/pixel
 ||popsible.com/event
-||popsible.com/analytics
+||popsible.com/events
 ||popsible.com/collect
+||popsible.com/analytics
+||popsible.com/stats
+||popsible.com/log
 
-! === Newsletter actions ===
+! === EMAIL / NEWSLETTER FUNCTIONS ===
 ||popsible.com/subscribe
 ||popsible.com/unsubscribe
 ||popsible.com/preferences
 ||popsible.com/manage
+||popsible.com/email
+||popsible.com/newsletter
+||popsible.com/campaign
+||popsible.com/campaigns
 
-! === Email pixel patterns (generic) ===
+! === IMAGE & TRACKING PIXELS (GENERIC) ===
 ||/pixel^
 ||/open^
 ||/track^
 ||/collect^
+||/analytics^
+||/stats^
 
-! === Safety ===
-! This list is designed to block email spam, ads
-! and tracking without breaking normal browsing
+! === REDIRECT & CLICK-THROUGH BLOCKING ===
+||/click^
+||/redirect^
+||/out^
+||/go^
+
+! === MAIL CDN / ASSET ABUSE PREVENTION ===
+||*.popsible.com/*.gif
+||*.popsible.com/*.png
+||*.popsible.com/*.jpg
+||*.popsible.com/*.jpeg
+||*.popsible.com/*.webp
+
+! === NOTES ===
+! Safe for AdGuard, AdGuard Home & DNS
+! Designed to stop spam mails, tracking & redirects
